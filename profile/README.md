@@ -1,4 +1,4 @@
-![upsrj](doc/img/upsrj.png)
+![upsrj](../doc/img/upsrj.png)
 
 # Bienvenid@s a **uprsj-jlopez**
 
@@ -89,19 +89,19 @@ Abre **Visual Studio Code** y desde el panel de extensiones instala las siguient
 
 * **Git Graph** – Visualiza el historial y ramas de tu repositorio de forma gráfica.
 
-  ![gitgraph](doc/img/gitgraph.png)
+  ![gitgraph](../doc/img/gitgraph.png)
   
 * **WSL** – Integra VSCode con el subsistema WSL.
 
-  ![wsl](doc/img/wsl.png)
+  ![wsl](../doc/img/wsl.png)
 
 * **C/C++ Extension Pack** – Conjunto de extensiones para desarrollo en C y C++.
 
-  ![ccppext](doc/img/ccppext.png)
+  ![ccpp](../doc/img/ccpp.png)
   
 * **Python Extension Pack** – Conjunto de extensiones para desarrollo en Python.
 
-  ![pythonext](doc/img/pythonext.png)
+  ![python](../doc/img/python.png)
 
 Para instalar extensiones:
 
@@ -117,7 +117,7 @@ Hemos enviado una invitación para unirte a la organización **uprsj-jlopez** en
 
 ✅ **IMPORTANTE:** Acepta la invitación siguiendo esta guía en video:
 
-📺 [https://youtu.be/Znbt9d9jszo?si=3_fcNCKajzj3AYZ6](https://youtu.be/Znbt9d9jszo?si=3_fcNCKajzj3AYZ6)
+📺 [![Accepting an Invitation for a GitHub Classroom Assignment](https://img.youtube.com/vi/Znbt9d9jszo/0.jpg)](https://youtu.be/Znbt9d9jszo)
 
 ---
 
@@ -140,6 +140,4 @@ Si tienes dudas o problemas durante la instalación:
 
 ---
 
-**Politécnica de Santa Rosa**
-**Organización GitHub: uprsj-jlopez**
 **Autor: Jesus Salvador Lopez Ortega (Profesor IRC/ISW/ITIID)** [LinkedIn](https://www.linkedin.com/in/jesus-salvador-lopez-ortega/) | [GitHub](https://github.com/chucholoport) | [Correo Institucional](mailto:jlopez@upsrj.edu.mx) 
