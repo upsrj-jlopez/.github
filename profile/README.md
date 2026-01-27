@@ -126,7 +126,9 @@ Hemos enviado una invitación para unirte a la organización **uprsj-jlopez** en
 Una vez completados los pasos anteriores:
 
 ✔️ Tu entorno de desarrollo estará preparado
+
 ✔️ Podrás clonar nuestros repositorios
+
 ✔️ Podrás trabajar con código en C, C++ y Python
 
 ---
