@@ -16,6 +16,8 @@ Antes de comenzar, **debes tener una cuenta de GitHub activa**.
 
 Sigue los pasos a continuación para instalar y configurar las herramientas necesarias:
 
+---
+
 ### 1. Instalar **Visual Studio Code**
 
 Descarga e instala Visual Studio Code desde el sitio oficial:
@@ -66,20 +68,46 @@ Dentro de la terminal de Ubuntu (WSL), ejecuta los siguientes comandos:
 
 ```bash
 sudo apt update
-sudo apt install -y build-essential python-is-python3
+sudo apt install -y build-essential python-is-python3 python3-venv python3-pytest git
 ```
 
 Esto instalará:
 
 * **build-essential** → Compilador GCC, `make` y librerías estándar para C/C++.
 * **python-is-python3** → Hace que el comando `python` apunte a Python 3.
+* **python3-venv** → Permite crear entornos virtuales en Python.
+* **python3-pytest** → Framework de testing utilizado para autograde.
+* **git** → Control de versiones.
 
 Verifica la instalación con:
 
 ```bash
 gcc --version
 python --version
+pytest --version
+git --version
 ```
+
+---
+
+### 3.1 Configurar tu cuenta de GitHub en Git
+
+Antes de clonar repositorios, configura tu identidad global en Git:
+
+```bash
+git config --global user.name "Tu Nombre Completo"
+git config --global user.email "tu_correo_de_github@example.com"
+```
+
+⚠️ **Importante:** El correo debe ser el mismo que usas en tu cuenta de GitHub.
+
+Puedes verificar la configuración con:
+
+```bash
+git config --global --list
+```
+
+Esto es necesario para que tus commits queden correctamente asociados a tu cuenta.
 
 ---
 
@@ -90,7 +118,7 @@ Abre **Visual Studio Code** y desde el panel de extensiones instala las siguient
 * **Git Graph** – Visualiza el historial y ramas de tu repositorio de forma gráfica.
 
   ![gitgraph](../doc/img/gitgraph.png)
-  
+
 * **WSL** – Integra VSCode con el subsistema WSL.
 
   ![wsl](../doc/img/wsl.png)
@@ -98,7 +126,7 @@ Abre **Visual Studio Code** y desde el panel de extensiones instala las siguient
 * **C/C++ Extension Pack** – Conjunto de extensiones para desarrollo en C y C++.
 
   ![ccpp](../doc/img/ccpp.png)
-  
+
 * **Python Extension Pack** – Conjunto de extensiones para desarrollo en Python.
 
   ![python](../doc/img/python.png)
@@ -121,25 +149,40 @@ Hemos enviado una invitación para unirte a la organización **uprsj-jlopez** en
 
 ---
 
+## 🧪 Sobre el Sistema de Evaluación Automática
+
+Nuestros proyectos utilizan:
+
+* **Makefile** para compilar código en C.
+* **pytest** para ejecutar pruebas automáticas.
+* **GitHub Actions** para evaluar cada entrega.
+
+Cada vez que hagas *push* a tu repositorio:
+
+✔️ Se compilará tu código automáticamente
+✔️ Se ejecutarán pruebas unitarias
+✔️ Se validará el comportamiento esperado
+
+Si algo falla, el sistema marcará la entrega como incorrecta hasta que lo corrijas.
+
+---
+
 ## 🚀 ¡Listo para Empezar!
 
 Una vez completados los pasos anteriores:
 
 ✔️ Tu entorno de desarrollo estará preparado
-
 ✔️ Podrás clonar nuestros repositorios
-
-✔️ Podrás trabajar con código en C, C++ y Python
+✔️ Podrás trabajar con código en C y Python
+✔️ Tus entregas serán evaluadas automáticamente
 
 ---
 
 ## 📬 Soporte
 
-Si tienes dudas o problemas durante la instalación:
-
-* Abre un *issue* en el repositorio correspondiente.
-* Contacta con tu instructor.
+Si tienes dudas o problemas durante la instalación, contacta con tu instructor.
 
 ---
 
-**Autor: Jesus Salvador Lopez Ortega (Profesor IRC/ISW/ITIID)** [LinkedIn](https://www.linkedin.com/in/jesus-salvador-lopez-ortega/) | [GitHub](https://github.com/chucholoport) | [Correo Institucional](mailto:jlopez@upsrj.edu.mx) 
+**Autor: Jesus Salvador Lopez Ortega (Profesor IRC/ISW/ITIID)**
+[LinkedIn](https://www.linkedin.com/in/jesus-salvador-lopez-ortega/) | [GitHub](https://github.com/chucholoport) | [Correo Institucional](mailto:jlopez@upsrj.edu.mx)
