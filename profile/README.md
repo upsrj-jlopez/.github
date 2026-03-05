@@ -149,6 +149,14 @@ Hemos enviado una invitación para unirte a la organización **uprsj-jlopez** en
 
 ---
 
+### 6. Entregar Cambios al Repositorio Remoto 
+
+✅ **IMPORTANTE:** El único formato de evalación aceptado es tu commit en GitHub:
+
+📺 [![Descubre dos maneras de subir tus cambios en Visual Studio Code](https://img.youtube.com/vi/zXToXjL_dWQ/0.jpg)](https://youtube.com/shorts/zXToXjL_dWQ)
+
+---
+
 ## 🧪 Sobre el Sistema de Evaluación Automática
 
 Nuestros proyectos utilizan:
@@ -160,7 +168,9 @@ Nuestros proyectos utilizan:
 Cada vez que hagas *push* a tu repositorio:
 
 ✔️ Se compilará tu código automáticamente
+
 ✔️ Se ejecutarán pruebas unitarias
+
 ✔️ Se validará el comportamiento esperado
 
 Si algo falla, el sistema marcará la entrega como incorrecta hasta que lo corrijas.
@@ -172,8 +182,11 @@ Si algo falla, el sistema marcará la entrega como incorrecta hasta que lo corri
 Una vez completados los pasos anteriores:
 
 ✔️ Tu entorno de desarrollo estará preparado
+
 ✔️ Podrás clonar nuestros repositorios
+
 ✔️ Podrás trabajar con código en C y Python
+
 ✔️ Tus entregas serán evaluadas automáticamente
 
 ---
